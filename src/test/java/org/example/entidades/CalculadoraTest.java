@@ -8,6 +8,6 @@ class CalculadoraTest {
     @Test
     void suma() {
         Calculadora calculadora = new Calculadora();
-        assertEquals(10, calculadora.suma(6,4));
+        assertEquals(11, calculadora.suma(6,4));
     }
 }
